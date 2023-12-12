@@ -1,0 +1,7 @@
+go 1.18
+
+use (
+	./Simple_Prac/01Hello
+	./Simple_Prac/02UserInput
+	./Simple_Prac/03HandlingTime
+)
