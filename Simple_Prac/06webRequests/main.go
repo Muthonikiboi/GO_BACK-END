@@ -19,7 +19,7 @@ func main(){
 	}
 
 	//check type of response
-	fmt.Printf("The type of rensoinse is : %T \n",response)
+	fmt.Printf("The type of response is : %T \n",response)
 
 	//close the public body of the response ie CONNECTION
 	defer response.Body.Close()
